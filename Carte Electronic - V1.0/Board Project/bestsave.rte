@@ -1,0 +1,753 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 25400  4714000 2440000 4710000 2440000 4710000 2089000)
+    (connect (terminal pin VMA410_R_BORN-0) (terminal pin VMA410_R-0))
+   )
+   (wire (path BOT 25400  4710000 2089000 4709580 2088580 4709580 1574696
+     4637115 1502231 3119030 1502231 3119030 596626 2958810 436406
+     2444000 -78404 2444000 -3790000)
+    (connect (terminal pin VMA410_R-0) (terminal pin GPS_L1-2))
+    (type protect)
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 25400  4460000 2440000 4456000 2440000 4456000 2089000)
+    (connect (terminal pin VMA410_R_BORN-1) (terminal pin VMA410_R-1))
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path BOT 25400  3698000 2440000 3694000 2440000 3694000 2089000)
+    (connect (terminal pin VMA410_R_BORN-4) (terminal pin VMA410_R-4))
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path BOT 25400  3444000 2440000 3440000 2440000 3440000 2089000)
+    (connect (terminal pin VMA410_R_BORN-5) (terminal pin VMA410_R-5))
+   )
+   )
+   (Net #00035 
+   (rule
+   )
+   (wire (path BOT 25400  4706000 3837000 4716000 3837000 4716000 4180000)
+    (connect (terminal pin VMA410_L-0) (terminal pin VMA410_L_BORN-0))
+   )
+   (wire (path BOT 25400  -1649000 2265000 -1649000 1914000)
+    (connect (terminal pin TEENSY_L-10) (terminal pin TEENSY_L_BORNS-10))
+   )
+   (wire (path BOT 25400  -1649000 2265000 -1649000 2601000 -1500000 2750000
+     -1227704 3022296 -1183333 3022296 3910009 3022296 4706000 3818287
+     4706000 3837000)
+    (connect (terminal pin TEENSY_L-10) (terminal pin VMA410_L-0))
+    (type protect)
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path BOT 25400  4462000 4180000 4452000 4180000 4452000 3837000)
+    (connect (terminal pin VMA410_L_BORN-1) (terminal pin VMA410_L-1))
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   (wire (path TOP 25400  -3661000 4107000 -3661000 3984700 4198000 3984700
+     4198000 3837000)
+    (connect (terminal pin TEENSY_R_BORNS-2) (terminal pin VMA410_L-2))
+   )
+   (wire (path BOT 25400  4208000 4180000 4198000 4180000 4198000 3837000)
+    (connect (terminal pin VMA410_L_BORN-2) (terminal pin VMA410_L-2))
+   )
+   (wire (path BOT 25400  -3661000 4107000 -3661000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-2) (terminal pin TEENSY_R-2))
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   (wire (path BOT 25400  3700000 4180000 3690000 4180000 3690000 3837000)
+    (connect (terminal pin VMA410_L_BORN-4) (terminal pin VMA410_L-4))
+   )
+   )
+   (Net #00040 
+   (rule
+   )
+   (wire (path BOT 25400  3446000 4180000 3436000 4180000 3436000 3837000)
+    (connect (terminal pin VMA410_L_BORN-5) (terminal pin VMA410_L-5))
+   )
+   )
+   (Net #00042 
+   (rule
+   )
+   (wire (path BOT 25400  -3935000 2265000 -3935000 1914000)
+    (connect (terminal pin TEENSY_L-1) (terminal pin TEENSY_L_BORNS-1))
+   )
+   )
+   (Net #00043 
+   (rule
+   )
+   (wire (path BOT 25400  -3681000 2265000 -3681000 1914000)
+    (connect (terminal pin TEENSY_L-2) (terminal pin TEENSY_L_BORNS-2))
+   )
+   )
+   (Net #00044 
+   (rule
+   )
+   (wire (path BOT 25400  -3427000 2265000 -3427000 1914000)
+    (connect (terminal pin TEENSY_L-3) (terminal pin TEENSY_L_BORNS-3))
+   )
+   (wire (path BOT 25400  -3427000 1914000 -3426298 1913298 -3426298 1746078
+     -3506340 1666036 -4013865 1666036 -4088571 1666036 -4195294 1559313)
+    (connect (terminal pin TEENSY_L_BORNS-3) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -4195294 1559313 -4280000 1474607 -4280000 1242000)
+    (connect (terminal wire) (terminal pin S1-0))
+    (type protect)
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   (wire (path BOT 25400  -3173000 2265000 -3173000 1914000)
+    (connect (terminal pin TEENSY_L-4) (terminal pin TEENSY_L_BORNS-4))
+   )
+   (wire (path BOT 25400  -3173000 1914000 -3173000 1658520 -3324737 1506783
+     -3330282 1501238 -3780000 1501238 -3780000 1244000)
+    (connect (terminal pin TEENSY_L_BORNS-4) (terminal pin S2-0))
+    (type protect)
+   )
+   )
+   (Net #00046 
+   (rule
+   )
+   (wire (path BOT 25400  -2919000 2265000 -2919000 1914000)
+    (connect (terminal pin TEENSY_L-5) (terminal pin TEENSY_L_BORNS-5))
+   )
+   (wire (path BOT 25400  -2919000 1914000 -2922640 1910360 -2922640 1469056
+     -3060944 1469056 -3280000 1250000)
+    (connect (terminal pin TEENSY_L_BORNS-5) (terminal pin S3-0))
+    (type protect)
+   )
+   )
+   (Net #00047 
+   (rule
+   )
+   (wire (path BOT 25400  -2665000 2265000 -2665000 1914000)
+    (connect (terminal pin TEENSY_L-6) (terminal pin TEENSY_L_BORNS-6))
+   )
+   (wire (path BOT 25400  -2665000 1914000 -2665405 1913595 -2665405 1687579
+     -2780000 1572984 -2780000 1242000)
+    (connect (terminal pin TEENSY_L_BORNS-6) (terminal pin S6-0))
+    (type protect)
+   )
+   )
+   (Net #00048 
+   (rule
+   )
+   (wire (path BOT 25400  -2411000 2265000 -2411000 1914000)
+    (connect (terminal pin TEENSY_L-7) (terminal pin TEENSY_L_BORNS-7))
+   )
+   (wire (path BOT 25400  -2411000 1914000 -2410773 1913773 -2410773 1630643
+     -2280000 1499870 -2280000 1246000)
+    (connect (terminal pin TEENSY_L_BORNS-7) (terminal pin S5-0))
+    (type protect)
+   )
+   )
+   (Net #00049 
+   (rule
+   )
+   (wire (path BOT 25400  -2157000 2265000 -2157000 1914000)
+    (connect (terminal pin TEENSY_L-8) (terminal pin TEENSY_L_BORNS-8))
+   )
+   )
+   (Net #00050 
+   (rule
+   )
+   (wire (path BOT 25400  -1903000 2265000 -1903000 1914000)
+    (connect (terminal pin TEENSY_L-9) (terminal pin TEENSY_L_BORNS-9))
+   )
+   )
+   (Net #00051 
+   (rule
+   )
+   (wire (path BOT 25400  -1395000 2265000 -1395000 1914000)
+    (connect (terminal pin TEENSY_L-11) (terminal pin TEENSY_L_BORNS-11))
+   )
+   )
+   (Net #00052 
+   (rule
+   )
+   (wire (path BOT 25400  -1141000 2265000 -1141000 1914000)
+    (connect (terminal pin TEENSY_L-12) (terminal pin TEENSY_L_BORNS-12))
+   )
+   )
+   (Net #00053 
+   (rule
+   )
+   (wire (path BOT 25400  -887000 2265000 -887000 1914000)
+    (connect (terminal pin TEENSY_L-13) (terminal pin TEENSY_L_BORNS-13))
+   )
+   )
+   (Net #00054 
+   (rule
+   )
+   (wire (path BOT 25400  -633000 2265000 -633000 1914000)
+    (connect (terminal pin TEENSY_L-14) (terminal pin TEENSY_L_BORNS-14))
+   )
+   )
+   (Net #00055 
+   (rule
+   )
+   (wire (path BOT 25400  -379000 2265000 -379000 1914000)
+    (connect (terminal pin TEENSY_L-15) (terminal pin TEENSY_L_BORNS-15))
+   )
+   )
+   (Net #00056 
+   (rule
+   )
+   (wire (path BOT 25400  -125000 2265000 -125000 1914000)
+    (connect (terminal pin TEENSY_L-16) (terminal pin TEENSY_L_BORNS-16))
+   )
+   )
+   (Net #00057 
+   (rule
+   )
+   (wire (path BOT 25400  129000 2265000 129000 1914000)
+    (connect (terminal pin TEENSY_L-17) (terminal pin TEENSY_L_BORNS-17))
+   )
+   )
+   (Net #00058 
+   (rule
+   )
+   (wire (path TOP 25400  383000 1914000 383000 1714500 -980000 1714500
+     -980000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-18) (terminal pin RF_1-5))
+   )
+   (wire (path BOT 25400  383000 2265000 383000 1914000)
+    (connect (terminal pin TEENSY_L-18) (terminal pin TEENSY_L_BORNS-18))
+   )
+   )
+   (Net #00059 
+   (rule
+   )
+   (wire (path TOP 25400  637000 1914000 637000 1587500 -726000 1587500
+     -726000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-19) (terminal pin RF_1-4))
+   )
+   (wire (path BOT 25400  637000 2265000 637000 1914000)
+    (connect (terminal pin TEENSY_L-19) (terminal pin TEENSY_L_BORNS-19))
+   )
+   )
+   (Net #00060 
+   (rule
+   )
+   (wire (path TOP 25400  891000 1914000 891000 1397000 -472000 1397000
+     -472000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-20) (terminal pin RF_1-3))
+   )
+   (wire (path BOT 25400  891000 2265000 891000 1914000)
+    (connect (terminal pin TEENSY_L-20) (terminal pin TEENSY_L_BORNS-20))
+   )
+   )
+   (Net #00061 
+   (rule
+   )
+   (wire (path BOT 25400  1145000 1914000 1145000 1651000 -218000 1651000
+     -218000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-21) (terminal pin RF_1-2))
+   )
+   (wire (path BOT 25400  1145000 2265000 1145000 1914000)
+    (connect (terminal pin TEENSY_L-21) (terminal pin TEENSY_L_BORNS-21))
+   )
+   )
+   (Net #00062 
+   (rule
+   )
+   (wire (path TOP 25400  1399000 1914000 1399000 1333500 36000 1333500
+     36000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-22) (terminal pin RF_1-1))
+   )
+   (wire (path BOT 25400  1399000 2265000 1399000 1914000)
+    (connect (terminal pin TEENSY_L-22) (terminal pin TEENSY_L_BORNS-22))
+   )
+   )
+   (Net #00063 
+   (rule
+   )
+   (wire (path BOT 25400  1653000 1914000 1653000 1587500 571500 1587500
+     571500 1180000 290000 1180000)
+    (connect (terminal pin TEENSY_L_BORNS-23) (terminal pin RF_1-0))
+   )
+   (wire (path BOT 25400  1653000 2265000 1653000 1914000)
+    (connect (terminal pin TEENSY_L-23) (terminal pin TEENSY_L_BORNS-23))
+   )
+   )
+   (Net #00064 
+   (rule
+   )
+   (wire (path BOT 25400  -4169000 4107000 -4169000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-0) (terminal pin TEENSY_R-0))
+   )
+   )
+   (Net #00065 
+   (rule
+   )
+   (wire (path BOT 25400  -3915000 4107000 -3915000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-1) (terminal pin TEENSY_R-1))
+   )
+   )
+   (Net #00066 
+   (rule
+   )
+   (wire (path BOT 25400  -3407000 4107000 -3407000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-3) (terminal pin TEENSY_R-3))
+   )
+   (wire (path BOT 25400  -3407000 4107000 -3410000 4110000 -3410000 4542000)
+    (connect (terminal pin TEENSY_R_BORNS-3) (terminal pin S4-0))
+    (type protect)
+   )
+   )
+   (Net #00067 
+   (rule
+   )
+   (wire (path BOT 25400  -3153000 4107000 -3153000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-4) (terminal pin TEENSY_R-4))
+   )
+   )
+   (Net #00068 
+   (rule
+   )
+   (wire (path BOT 25400  -2899000 4107000 -2899000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-5) (terminal pin TEENSY_R-5))
+   )
+   )
+   (Net #00069 
+   (rule
+   )
+   (wire (path BOT 25400  -2645000 4107000 -2645000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-6) (terminal pin TEENSY_R-6))
+   )
+   )
+   (Net #00070 
+   (rule
+   )
+   (wire (path BOT 25400  -2391000 4107000 -2391000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-7) (terminal pin TEENSY_R-7))
+   )
+   )
+   (Net #00071 
+   (rule
+   )
+   (wire (path BOT 25400  -2137000 4107000 -2137000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-8) (terminal pin TEENSY_R-8))
+   )
+   )
+   (Net #00072 
+   (rule
+   )
+   (wire (path BOT 25400  -1883000 4107000 -1883000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-9) (terminal pin TEENSY_R-9))
+   )
+   )
+   (Net #00073 
+   (rule
+   )
+   (wire (path BOT 25400  -1629000 4107000 -1629000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-10) (terminal pin TEENSY_R-10))
+   )
+   )
+   (Net #00074 
+   (rule
+   )
+   (wire (path BOT 25400  -1375000 4107000 -1375000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-11) (terminal pin TEENSY_R-11))
+   )
+   )
+   (Net #00075 
+   (rule
+   )
+   (wire (path BOT 25400  -1121000 4107000 -1121000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-12) (terminal pin TEENSY_R-12))
+   )
+   )
+   (Net #00076 
+   (rule
+   )
+   (wire (path BOT 25400  -867000 4107000 -867000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-13) (terminal pin TEENSY_R-13))
+   )
+   )
+   (Net #00077 
+   (rule
+   )
+   (wire (path BOT 25400  -613000 4107000 -613000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-14) (terminal pin TEENSY_R-14))
+   )
+   )
+   (Net #00078 
+   (rule
+   )
+   (wire (path BOT 25400  -359000 4107000 -359000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-15) (terminal pin TEENSY_R-15))
+   )
+   )
+   (Net #00079 
+   (rule
+   )
+   (wire (path BOT 25400  -105000 4107000 -105000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-16) (terminal pin TEENSY_R-16))
+   )
+   )
+   (Net #00080 
+   (rule
+   )
+   (wire (path BOT 25400  149000 4107000 149000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-17) (terminal pin TEENSY_R-17))
+   )
+   )
+   (Net #00081 
+   (rule
+   )
+   (wire (path BOT 25400  403000 4107000 403000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-18) (terminal pin TEENSY_R-18))
+   )
+   )
+   (Net #00082 
+   (rule
+   )
+   (wire (path BOT 25400  657000 4107000 657000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-19) (terminal pin TEENSY_R-19))
+   )
+   )
+   (Net #00083 
+   (rule
+   )
+   (wire (path BOT 25400  911000 4107000 911000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-20) (terminal pin TEENSY_R-20))
+   )
+   )
+   (Net #00084 
+   (rule
+   )
+   (wire (path BOT 25400  1165000 4107000 1165000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-21) (terminal pin TEENSY_R-21))
+   )
+   )
+   (Net #00085 
+   (rule
+   )
+   (wire (path BOT 25400  1419000 4107000 1419000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-22) (terminal pin TEENSY_R-22))
+   )
+   )
+   (Net #00086 
+   (rule
+   )
+   (wire (path BOT 25400  1673000 4107000 1673000 3756000)
+    (connect (terminal pin TEENSY_R_BORNS-23) (terminal pin TEENSY_R-23))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 25400  -3410000 5050000 -4381500 5050000 -4381500 2540000
+     -4189000 2540000 -4189000 2265000)
+    (connect (terminal pin S4-2) (terminal pin TEENSY_L-0))
+   )
+   (wire (path TOP 25400  3948000 2089000 3948000 1699117 1942000 1699117
+     1942000 1160000)
+    (connect (terminal pin VMA410_R-3) (terminal pin GPS_R1-3))
+   )
+   (wire (path TOP 25400  1942000 1160000 1942000 580000 270000 580000)
+    (connect (terminal pin GPS_R1-3) (terminal pin RF_GND-0))
+   )
+   (wire (path TOP 25400  -1000000 580000 -1968500 580000 -1968500 738000
+     -2280000 738000)
+    (connect (terminal pin RF_GND-5) (terminal pin S5-2))
+   )
+   (wire (path TOP 25400  -4189000 1914000 -4189000 1651000 -4064000 1651000
+     -4064000 736000 -3780000 736000)
+    (connect (terminal pin TEENSY_L_BORNS-0) (terminal pin S2-2))
+   )
+   (wire (path TOP 25400  -5030000 876000 -4762500 876000 -4762500 734000
+     -4280000 734000)
+    (connect (terminal pin POWER-1) (terminal pin S1-2))
+   )
+   (wire (path TOP 25400  3944000 3837000 3944000 3556000 3952000 3556000
+     3952000 2440000)
+    (connect (terminal pin VMA410_L-3) (terminal pin VMA410_R_BORN-3))
+   )
+   (wire (path BOT 25400  -2280000 738000 -2603500 738000 -2603500 508000
+     -2984500 508000 -2984500 742000 -3280000 742000)
+    (connect (terminal pin S5-2) (terminal pin S3-2))
+   )
+   (wire (path BOT 25400  3954000 4180000 3944000 4180000 3944000 3837000)
+    (connect (terminal pin VMA410_L_BORN-3) (terminal pin VMA410_L-3))
+   )
+   (wire (path TOP 25400  -3780000 736000 -3492500 736000 -3492500 742000
+     -3280000 742000)
+    (connect (terminal pin S2-2) (terminal pin S3-2))
+   )
+   (wire (path BOT 25400  3952000 2440000 3948000 2440000 3948000 2089000)
+    (connect (terminal pin VMA410_R_BORN-3) (terminal pin VMA410_R-3))
+   )
+   (wire (path BOT 25400  -4280000 734000 -4000500 734000 -4000500 736000
+     -3780000 736000)
+    (connect (terminal pin S1-2) (terminal pin S2-2))
+   )
+   (wire (path BOT 25400  -4189000 2265000 -4189000 1914000)
+    (connect (terminal pin TEENSY_L-0) (terminal pin TEENSY_L_BORNS-0))
+   )
+   (wire (path BOT 25400  -746000 580000 -1000000 580000)
+    (connect (terminal pin RF_GND-4) (terminal pin RF_GND-5))
+   )
+   (wire (path TOP 25400  -238000 580000 -492000 580000)
+    (connect (terminal pin RF_GND-2) (terminal pin RF_GND-3))
+   )
+   (wire (path BOT 25400  -492000 580000 -746000 580000)
+    (connect (terminal pin RF_GND-3) (terminal pin RF_GND-4))
+   )
+   (wire (path BOT 25400  16000 580000 -238000 580000)
+    (connect (terminal pin RF_GND-1) (terminal pin RF_GND-2))
+   )
+   (wire (path BOT 25400  270000 580000 16000 580000)
+    (connect (terminal pin RF_GND-0) (terminal pin RF_GND-1))
+   )
+   (wire (path BOT 25400  -2780000 734000 -2747500 734000)
+    (connect (terminal pin S6-2) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 25400  -2878486 2996000 -2540000 2996000 -2540000 992000
+     -2280000 992000)
+    (connect (terminal wire) (terminal pin S5-1))
+   )
+   (wire (path BOT 25400  4206000 2440000 4202000 2440000 4202000 2089000)
+    (connect (terminal pin VMA410_R_BORN-2) (terminal pin VMA410_R-2))
+   )
+   (wire (path BOT 25400  -4445000 988000 -4530000 988000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  1689579 850000 1689579 382725 1336854 30000
+     -1030000 30000 -1992000 992000 -2280000 992000)
+    (connect (terminal wire) (terminal pin S5-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  1689579 930000 1689579 900000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  1689579 900000 1689579 850000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  1689579 850000 280000 850000)
+    (connect (terminal wire) (terminal pin RF_5V-0))
+    (type protect)
+   )
+   (wire (path BOT 25400  280000 850000 26000 850000)
+    (connect (terminal pin RF_5V-0) (terminal pin RF_5V-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  26000 850000 -228000 850000)
+    (connect (terminal pin RF_5V-1) (terminal pin RF_5V-2))
+    (type protect)
+   )
+   (wire (path BOT 25400  -228000 850000 -482000 850000)
+    (connect (terminal pin RF_5V-2) (terminal pin RF_5V-3))
+    (type protect)
+   )
+   (wire (path BOT 25400  -482000 850000 -736000 850000)
+    (connect (terminal pin RF_5V-3) (terminal pin RF_5V-4))
+    (type protect)
+   )
+   (wire (path BOT 25400  -736000 850000 -990000 850000)
+    (connect (terminal pin RF_5V-4) (terminal pin RF_5V-5))
+    (type protect)
+   )
+   (wire (path BOT 25400  1689579 940000 1689579 930000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  1688000 1160000 1689579 1158421 1689579 940000)
+    (connect (terminal pin GPS_R1-2) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -4734000 4796000 -3410000 4796000)
+    (connect (terminal wire) (terminal pin S4-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  -5030000 4500000 -4734000 4796000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -5030000 1130000 -5030000 4500000)
+    (connect (terminal pin POWER-0) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  4202000 2089000 4202000 1806953 4145047 1750000
+     2264238 1750000 1688000 1173762 1688000 1160000)
+    (connect (terminal pin VMA410_R-2) (terminal pin GPS_R1-2))
+    (type protect)
+   )
+   (wire (path BOT 25400  -4530000 988000 -4572000 988000 -4706000 1122000
+     -5030000 1122000 -5030000 1130000)
+    (connect (terminal wire) (terminal pin POWER-0))
+    (type protect)
+   )
+   (wire (path BOT 25400  -2280000 992000 -2776000 992000 -2780000 988000)
+    (connect (terminal pin S5-1) (terminal pin S6-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  -3782000 988000 -4280000 988000)
+    (connect (terminal wire) (terminal pin S1-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  -3780000 990000 -3782000 988000)
+    (connect (terminal pin S2-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -4280000 988000 -4445000 988000)
+    (connect (terminal pin S1-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -3280000 996000 -3774000 996000 -3780000 990000)
+    (connect (terminal pin S3-1) (terminal pin S2-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  -3030000 988000 -3272000 988000 -3280000 996000)
+    (connect (terminal wire) (terminal pin S3-1))
+    (type protect)
+   )
+   (wire (path BOT 25400  -2780000 988000 -2997500 988000)
+    (connect (terminal pin S6-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path BOT 25400  -2997500 988000 -3030000 988000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -2277032 992000 -2176000 992000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -2280000 992000 -2277032 992000)
+    (connect (terminal pin S5-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -3780000 990000 -3782000 988000)
+    (connect (terminal pin S2-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -2890000 2996000 -2878486 2996000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -3780000 990000 -3782000 988000)
+    (connect (terminal pin S2-1) (terminal wire))
+    (type protect)
+   )
+   (wire (path TOP 25400  -2780000 988000 -2747500 988000)
+    (connect (terminal pin S6-1) (terminal wire))
+    (type protect)
+    (attr fanout)
+   )
+   (wire (path TOP 25400  -2176000 992000 -2172000 988000)
+    (connect (terminal wire) (terminal wire))
+    (type protect)
+   )
+   )
+  )
+ )
