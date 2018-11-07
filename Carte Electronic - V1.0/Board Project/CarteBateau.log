@@ -1,4 +1,4 @@
-# Writing all output to: C:\Users\paulo\Desktop\Microtransat\Electronic\CarteBateau.log
+# Writing all output to: C:\Users\Paulo\Desktop\Mea-MicroTransat\Hardware\Carte Electronic - V1.0\Board Project\CarteBateau.log
 set pad_wire_necking on
 bus diagonal
 fanout 5
